@@ -1,0 +1,335 @@
+
+
+/*------------- begin navbar ----------*/
+
+
+
+.head{
+height: auto;
+min-width: 100%
+}
+
+
+
+
+
+#header .logo a  , .section-title p ,
+.section-title , .nav-menu .active > a ,
+.mobile-nav a:hover, .mobile-nav .active > a,
+.mobile-nav li:hover > a , .breadcrumbs h2
+{
+	color:#c10000 !important;
+}
+
+#header  , #hero .carousel-indicators li
+{
+background:#eee;
+}
+
+
+.nav-menu a ,.nav-menu li  , .icofont-navigation-menu:before ,
+.mobile-nav a , .nav-menu .drop-down ul li a
+{
+	color:#444 ;
+}
+
+.nav-menu a:hover, .nav-menu li:hover > a 
+{
+	color:#c10000 !important;
+}
+
+#hero .btn-get-started
+{
+	color:#eee;
+	background:#c10000;
+}
+
+#hero .btn-get-started:hover
+{
+	color:#dedede;
+	background:#ff4949;
+}
+#hero .carousel-indicators li.active
+{
+	background:#c10000 ;
+}
+/*--------------- end navbar------------*/
+
+.p
+{
+	margin-top:10px;
+}
+
+.ri-check-double-line:before
+{
+	color:#c10000;
+	float:  right;
+	direction: rtl !important;   /*------problem---------*/
+}
+
+
+
+
+.section-title  , .pt-4, .py-4 , #about , .card-body , .breadcrumbs , .section-bg , .contact .info-box 
+{
+text-align:right !important;
+direction: rtl !important;
+}
+
+
+.about .content .btn-learn-more
+{
+	color:#c10000;
+	border-color:#c10000;
+	
+}
+
+.about .content .btn-learn-more:hover
+{
+	color:#eee;
+	background:#c10000;
+	
+}
+
+
+
+.services .icon-box , .services .icon-box .icon:hover , .section-title p
+{
+	color:#c10000 !important;
+	
+}
+
+
+
+.services .icon-box:hover , .services .icon-box .icon{
+	color:#eee;
+	background:#c10000;
+	
+}
+
+
+
+
+.card-body
+{
+	color:#c10000;
+	
+}
+
+
+.aa i
+{
+font-size: 34px;
+}
+
+/*----------------*/
+
+#footer , #footer .footer-top .social-links a  , .contact .php-email-form button[type="submit"]
+{
+	background:#c10000;
+	
+}
+
+#footer .footer-top .footer-info  , .back-to-top i:hover , .contact .php-email-form button[type="submit"]:hover
+
+{
+	background:#ff4949;
+	
+}
+
+#footer .copyright
+{
+	border-color:#ff4949;
+	
+}
+
+#footer .footer-top .social-links a:hover 
+{
+	background:#444;
+	
+}
+
+.bx-chevron-right:before , #footer .footer-top .footer-links ul a:hover
+
+{
+	color:#444;
+	
+}
+
+  .back-to-top i , #footer .footer-top .footer-newsletter form input[type="submit"]
+
+{
+	background:#444;
+	
+}
+
+
+
+hr
+{
+width: 80%	
+}
+
+
+.contact .info-box i{
+color:#c10000;
+font-size:24px;
+margin-left:10px;
+margin-right: 10px;
+}
+
+
+.contact .info-box h3
+{
+margin-right: 10px;
+}
+
+
+.contact .info-box h3 span
+{
+border-bottom: 1px solid #c10000;}
+
+.section-title{
+margin-top: 44px}
+
+
+
+.contact .php-email-form textarea:focus ,  .contact .php-email-form input:focus
+{
+border-color: #c10000;}
+
+
+.contact .info-box{
+text-align:right !important;
+}
+
+.portfolio #portfolio-flters li
+{
+display: block;
+width: 100%;
+
+}
+
+
+
+.list-group-item:last-child , .back
+{
+width: 100%;
+text-align:right;
+
+}
+
+
+.portfolio #portfolio-flters 
+{
+margin: 0px ;
+}
+
+
+.justify-content-center
+{
+justify-content:flex-start !important;}
+
+
+.portfolio , .portfolio .portfolio-item .portfolio-info 
+{
+direction: rtl;
+}
+
+
+
+.portfolio #portfolio-flters li
+{
+padding:0px;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+
+.list-group-item:last-child  , .back 
+{
+
+color:#dedede;
+border-color:#dedede;
+background-image: linear-gradient(180deg,#aa0000,#bb0000,#c10000,#ee0000,#ff0000,#acacac) ;
+
+}
+
+
+
+.list-group-item:last-child:hover , .list-group-item:last-child:active , .list-group-item:last-child:focus , .back:hover , .back:focus 
+{
+
+background: #fa4a4a;
+color:#dedede;
+
+}
+
+.card-body{
+padding:0px;
+margin:0px;
+border:none;}
+
+
+
+
+ .cc
+ {
+background:none !important;
+border:none;}
+
+
+
+.img {
+height: 180px;
+width: 100%
+}
+
+
+
+.drop p
+{
+background:none;
+}
+
+
+
+
+.drop 
+{
+
+color:#dedede;
+border-color:#dedede;
+/*
+background-image: linear-gradient(180deg,#aa0000,#bb0000,#c10000,#ee0000,#ff0000) ;
+*/
+background:#fa4949;
+}
+
+
+
+
+.cc:hover , .cc:focus{
+
+background:rgba(170,90,90,0.8)  !important;
+color:#dedede !important;
+
+}
+
+
+/*
+
+.a{
+border:1px solid #444;
+padding-top: 10px;
+padding-bottom: 7px;}
+
+*/
+
+
+.aa{
+direction: rtl !important;
+background:#000;
+
+}
