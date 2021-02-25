@@ -333,3 +333,174 @@ direction: rtl !important;
 background:#000;
 
 }
+
+
+
+
+/*-----------------------------*/
+
+.zx
+{
+width: 100%;
+height: 249px;
+background:#fff;
+}
+
+
+
+.member-info
+{
+background:rgba(70 , 70 , 70 ,.49) !important;
+}
+
+
+
+.member
+{
+	
+border:#ddd solid 1px;
+box-shadow: 4px 7px 7px #888 ;
+}
+
+
+.social
+{
+background:rgba(70 , 70 , 70 ,.7) !important;
+color:#000;
+
+}
+
+.member-info-content h2
+{
+background:rgba(70 , 70 , 70 ,.7) !important;
+color:#fff;
+}
+
+
+.member-info a:hover
+{
+color:#c10000 !important;
+}
+
+
+
+
+
+.member-info a
+{
+color:#fff !important;
+}
+
+
+
+/* -----slide show----------------*/
+
+#hero p 
+
+{
+	
+	background:rgba(90,90,90,0.4);
+	text-align: right;
+}
+
+
+.card-body
+
+{
+	padding:10px;
+padding-right :40px;
+border-top :1px solid #ccc;
+
+}
+
+
+.card
+
+{
+	
+box-shadow: 4px 4px 7px #444;
+
+}
+
+
+
+.card-body h5
+
+{
+width: 70%;
+display: inline;}
+
+.card-body a
+
+{
+width: 30%;
+text-align: right;
+}
+
+
+
+
+/*---------------footer -------------*? */
+  footer
+ {
+	direction: rtl;
+ }
+ 
+ #footer .footer-top h4
+ {
+text-align: right }
+ 
+ 
+ 
+ 
+.contact .php-email-form {
+	width: 100%;
+	margin-bottom: 10px;
+ }
+ 
+ 
+.btn:not(:disabled):not(.disabled)
+{
+	background: #c10000;
+		width: 30%;
+
+}
+
+
+
+
+
+ .text-center .btn-learn-more {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 5px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #fff;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #444;
+		background: #444;
+}
+
+
+
+
+
+
+
+/*------------------------*?*/
+
+.portfolio-details .portfolio-info
+{
+	
+	text-align: right;
+	direction: rtl;
+}
+
+
