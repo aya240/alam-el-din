@@ -382,25 +382,19 @@ color:#fff;
 color:#c10000 !important;
 }
 
-
-
-
-
 .member-info a
 {
 color:#fff !important;
 }
 
-
-
 /* -----slide show----------------*/
 
 #hero p 
-
 {
 	
 	background:rgba(90,90,90,0.4);
 	text-align: right;
+	border-radius: 60px 0;
 }
 
 
@@ -503,4 +497,24 @@ text-align: right }
 	direction: rtl;
 }
 
+#header {
+	padding: 0;
+}
 
+#header .logo img {
+	max-height: 50px;
+	transition: all 1s ease-in-out;
+}
+
+#header .logo img {
+	max-height: 50px;
+}
+
+#header.header-scrolled{
+	padding: 0;
+	transition: all 1s ease-in-out;
+}
+
+#header.header-scrolled .logo img{
+	max-height: 70px;
+}
