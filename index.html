@@ -35,46 +35,48 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-                     <!-----   <h1 class="logo mr-auto"><a href="index.html">علم الدين</a></h1> ------>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <!-- Uncomment below if you prefer to use an image logo -->
-    <a href="index.html" class="logo mr-auto"><img src="assets/img/p.jpg" alt="" class="img-fluid"></a> 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">الرئيسية <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="who.html">من نحن</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          المنتجات
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="prod.html">فيبر</a>
 
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="index.html">الرئيسية</a></li>
-          <li><a href="who.html">من نحن</a></li>
-          <li class="drop-down"><a href="prod.html">المنتجات</a>
-            <ul>
-              <li><a href="prod.html">فيبر</a></li>
-              <li class="drop-down"><a href="prod.html">كلادينجASP</a>
-                <ul>
-                  <li><a href="prod.html">سادة</a></li>
-                  <li><a href="prod.html">ميتالك</a></li>
-                  <li><a href="prod.html">خشبيات</a></li>
-                  <li><a href="prod.html">برش</a></li>
-                  <li><a href="prod.html">مرايا</a></li>
-                </ul>
-              </li>
-              <li><a href="prod.html">UV</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">تواصل معنا</a></li>
+          <div class='dropleft'>
+            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropleft
+            </button>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="prod.html">سادة</a>
+              <a class="dropdown-item" href="prod.html">ميتالك</a>
+              <a class="dropdown-item" href="prod.html">خشبيات</a>
+              <a class="dropdown-item" href="prod.html">برش</a>
+              <a class="dropdown-item" href="prod.html">مرايا</a>
+            </div>
+          </div>
+          
+        </div>
+      </li>
 
-        </ul>
-        
-
-      </nav><!-- .nav-menu -->
-
-<!---------      <a href="#about" class="get-started-btn">Get Started</a>      ------>
-
-    </div>
-
-  </header>
-  <!-- End Header -->
+      
+    </ul>
+    
+  </div>
+</nav>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
