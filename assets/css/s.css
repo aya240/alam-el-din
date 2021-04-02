@@ -386,7 +386,10 @@ color:#fff !important;
 	border:1px solid #ccc;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 84c0dae1443f1d4b9a8e147d42bfeca43b5e0805
 #hero p 
 {
 	
@@ -516,6 +519,7 @@ text-align: right }
 #header.header-scrolled .logo img{
 	max-height: 70px;
 }
+<<<<<<< HEAD
 
 
 
@@ -525,4 +529,9 @@ text-align: right }
 
 
 
+=======
+>>>>>>> 84c0dae1443f1d4b9a8e147d42bfeca43b5e0805
 
+.ppp{
+	position: relative;
+}
