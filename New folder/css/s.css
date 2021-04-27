@@ -1,0 +1,173 @@
+.body
+{
+margin:0px auto;
+padding:0px;
+direction:rtl;
+}
+
+
+
+
+
+.head{
+	width:100%;
+	height:300px;
+	background:url("../mg/1.jpg")  no-repeat;
+	background-size:100% 100%;
+}
+
+
+.headd{
+	
+	list-style:none;
+		width:100%;
+		border-bottom:  1px solid #ddd;
+margin:0px;
+padding:3px;
+background:rgb(248,248,248);
+}
+
+
+.headd li{
+	
+	display:inline-block;
+	margin-left:20px;
+
+}
+
+
+
+
+.headd .home {
+	float:right;
+	margin-right:0px;
+	background:#088;
+	color:#fff;
+	padding:3px;
+	
+	
+}
+
+/**********************************************************************************************/
+
+
+
+table {
+	width:90%;
+	text-align:right;
+	padding:10px;
+direction:rtl;
+margin-right: 0px;
+
+}
+td{
+	padding:10px;
+	width:30%;
+}
+
+
+.img  .ss{
+	width:47%;
+	height:20%;
+		float:left;
+				display:none;
+
+
+}
+
+
+
+.img  .ff{
+width:70%;
+	height:200px
+
+
+}
+
+
+
+
+.img {
+
+		transition:1s linear;
+
+
+}
+
+
+
+.pp{
+	width:47%;
+	height:100%;
+		float:right;
+			display : none;
+
+}
+
+
+.xx:hover .pp{
+	display : block;
+	
+}
+
+
+.xx:hover .ss{
+	display : block;
+	
+}
+
+
+.xx:hover .ff{
+	display : none;
+	
+}
+
+
+
+
+
+.xx:hover  {
+	background:#022;
+	width:40%;
+	height:100%;
+color:#fff;	
+	
+}
+
+
+
+.xx{
+	transition:1s linear;
+}
+
+
+.zxc img{
+width:100%;
+}
+
+
+ .zxc {
+	display: none;
+}
+
+
+.xx:hover .zxc {
+	display: block;
+	float: right;
+}
+
+
+
+.sp{
+	width:47%;
+	height:100%;
+			display : none;
+
+}
+
+
+.xx:hover .sp{
+	display : block;
+	
+}
+
